@@ -1,0 +1,30 @@
+.center {
+	text-align: center;
+}
+.big_text {
+	font-size: 4vw;
+}
+.info_text {
+	font-size: 1.5vw;
+	color: red;
+}
+.info_text2 {
+	font-size: 1.5vw;
+	color: green;
+}
+.info_block {
+	font-size: 2vw;
+}
+.info_block input {
+	font-size: 2vw;
+    height: 3vw;
+    text-align: center;
+    margin-top: 0.4vw;
+}
+input.currency_name {
+	width: 8vw;
+}
+.response {
+	color: lime;
+	padding-top: 2vw;
+}
