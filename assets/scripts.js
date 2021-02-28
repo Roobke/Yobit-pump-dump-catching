@@ -15,7 +15,10 @@ $(document).ready(function () {
 		$.ajax({
 			type: "POST",
 			url: 'includes/ajax.php',
-			data: {action: 'buy', currency: currency},
+			data: {
+				action: 'buy',
+				currency: currency
+			},
 			success: function(data) {
 				$('.response').html(data);
 			}
@@ -29,7 +32,10 @@ $(document).ready(function () {
 		$.ajax({
 			type: "POST",
 			url: 'includes/ajax.php',
-			data: {action: 'buy2', currency: currency},
+			data: {
+				action: 'buy2',
+				currency: currency
+			},
 			success: function(data) {
 				$('.response').html(data);
 			}
@@ -45,7 +51,10 @@ $(document).ready(function () {
 			$.ajax({
 				type: "POST",
 				url: 'includes/ajax.php',
-				data: {action: 'price', currency: currency},
+				data: {
+					action: 'price',
+					currency: currency
+				},
 				success: function(data) {
 					$('.response').prepend(data);
 				}
@@ -64,7 +73,10 @@ $(document).ready(function () {
 		$.ajax({
 			type: "POST",
 			url: 'includes/ajax.php',
-			data: {action: 'sell', currency: currency},
+			data: {
+				action: 'sell',
+				currency: currency
+			},
 			success: function(data) {
 				$('.response').html(data);
 			}
